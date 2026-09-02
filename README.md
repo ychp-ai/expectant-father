@@ -8,6 +8,11 @@
 
 > 提醒：本项目用于家庭准备、记录和沟通，不替代医生、医院或当地官方要求。
 
+## 仓库地址
+
+- GitHub：[ychp-ai/expectant-father](https://github.com/ychp-ai/expectant-father)。
+- SSH：`git@github.com:ychp-ai/expectant-father.git`。
+
 ## 个人资料仓库建议
 
 本仓库只保存通用知识。当前孕周、具体预约、症状、检查摘要、办理状态和家庭调研记录，建议保存在独立、访问受控的私人资料仓库或其他私人记录工具中。
