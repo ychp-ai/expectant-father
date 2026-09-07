@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 REFERENCES = ROOT / "references" / "README.md"
 IGNORED_DIRS = {".git", ".agents", ".codex", "private", "__pycache__"}
 SOURCE_CODE_RE = re.compile(
-    r"\b(?:CN|WHO|NHS|ACOG|RCOG|MAYO|FDA|COCHRANE|ZJ|HZ|WHZJU)-[A-Z]+-\d{3}\b"
+    r"\b(?:CN|WHO|NHS|CDC|ACOG|RCOG|MAYO|FDA|COCHRANE|ZJ|HZ|WHZJU)-[A-Z]+-\d{3}\b"
 )
 LINK_RE = re.compile(r"(?<!!)\[[^\]]+\]\(([^)]+)\)")
 REVIEW_RE = re.compile(r"^- 最近复核：(\d{4}-\d{2}-\d{2})$", re.MULTILINE)
