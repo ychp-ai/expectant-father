@@ -24,9 +24,45 @@
 
 ### NHS-WEEK-001：孕周变化概览
 
-- 英国国家医疗服务体系：[Week-by-week guide to pregnancy](https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/)。
-- 适用范围：孕周变化和通用家庭准备。国际资料只作概览参考。
-- 最近复核：2026-07-05
+- 英国国家医疗服务体系：[Week-by-week guide to pregnancy](https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/)，2026-09-18 访问总入口及下列 4～40 周正文。
+- 适用范围：逐周外形、器官及活动变化和大致长度。仅作发育科普，不采用其中英国就医、筛查或福利安排；长度采用对应周页的近似值，5～19 周为头臀长，20 周起为头踵长，不作为临床正常范围。个别里程碑与其他资料不完全一致时，写作阶段性变化，不固定某一天必然完成；不采用“器官全部成熟”等过度概括。
+- 最近复核：2026-09-18
+
+| 对应阶段 | 已核对的逐周原文 |
+|---|---|
+| 孕早期 | [4 周](https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-4/) · [5 周](https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-5/) · [6 周](https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-6/) · [7 周](https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-7/) · [8 周](https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-8/) · [9 周](https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-9/) · [10 周](https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-10/) · [11 周](https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-11/) · [12 周](https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-12/) |
+| 孕中期 | [13 周](https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/2nd-trimester/week-13/) · [14 周](https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/2nd-trimester/week-14/) · [15 周](https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/2nd-trimester/week-15/) · [16 周](https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/2nd-trimester/week-16/) · [17 周](https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/2nd-trimester/week-17/) · [18 周](https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/2nd-trimester/week-18/) · [19 周](https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/2nd-trimester/week-19/) · [20 周](https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/2nd-trimester/week-20/) · [21 周](https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/2nd-trimester/week-21/) · [22 周](https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/2nd-trimester/week-22/) · [23 周](https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/2nd-trimester/week-23/) · [24 周](https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/2nd-trimester/week-24/) · [25 周](https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/2nd-trimester/week-25/) · [26 周](https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/2nd-trimester/week-26/) · [27 周](https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/2nd-trimester/week-27/) |
+| 孕晚期 | [28 周](https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-28/) · [29 周](https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-29/) · [30 周](https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-30/) · [31 周](https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-31/) · [32 周](https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-32/) · [33 周](https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-33/) · [34 周](https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-34/) · [35 周](https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-35/) · [36 周](https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-36/) · [37 周](https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-37/) · [38 周](https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-38/) · [39 周](https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-39/) · [40 周](https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/3rd-trimester/week-40/) |
+
+### MAYO-DEVELOP-001：孕早期胚胎发育
+
+- Mayo Clinic：[Fetal development: The first trimester](https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/prenatal-care/art-20045302)，2025-03-18 更新。
+- 适用范围：医学孕周与受精时间的区别、受精与着床、孕早期神经管和外形变化；与 NHS 交叉核对，不混用不同来源的长度示例。
+- 最近复核：2026-09-18
+
+### MAYO-DEVELOP-002：孕中期胎儿发育
+
+- Mayo Clinic：[Fetal development: The 2nd trimester](https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/fetal-development/art-20046151?p=1)，2025-03-18 更新。
+- 适用范围：骨骼、胎脂、吸吮、肺表面活性物质、眼部和神经系统发育；区分开始形成与功能成熟。国际科普不用于预测个人早产结局。
+- 最近复核：2026-09-18
+
+### MAYO-DEVELOP-003：孕晚期胎儿发育
+
+- Mayo Clinic：[Fetal development: The 3rd trimester](https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/fetal-development/art-20045997)，2025-03-18 更新。
+- 适用范围：眼部和呼吸样运动、脂肪积累、骨髓造血、胎毛与指甲、胎位及预产期的估计性质；不以孕周保证器官成熟或决定分娩时机。
+- 最近复核：2026-09-18
+
+### NHS-MOVE-001：胎动感知与变化
+
+- 英国国家医疗服务体系：[Your baby's movements](https://www.nhs.uk/pregnancy/keeping-well/your-babys-movements/)，页面最近复核 2024-07-08。
+- 适用范围：首次感知胎动通常在孕 16～24 周、24 周仍未感知时联系产科、胎动模式明显改变需立即求助及不能用家用胎心仪排除异常。仅采用上述原则，具体记录方式按当地产科指导，不直接套用英国就医渠道。
+- 最近复核：2026-09-18
+
+### NICHD-TERM-001：早产与足月细分
+
+- 美国国立卫生研究院所属 NICHD：[Pregnancy: Know Your Terms](https://www.nichd.nih.gov/ncmhep/materials/poster-know-your-terms-txtalt)、[About Preterm Labor and Birth](https://www.nichd.nih.gov/health/topics/preterm/conditioninfo)，2026-09-18 访问。
+- 适用范围：不足 37 周为早产；37～38+6 周为 early term（早期足月），39～40+6 周为 full term（完全足月）的国际细分，以及 37～39 周仍有重要器官发育。术语帮助理解成熟度差异，不用于自行决定等待或提前分娩。
+- 最近复核：2026-09-18
 
 ### ACOG-EDD-001：孕周与预产期计算
 
@@ -375,6 +411,8 @@
 
 ## 复核记录
 
+- 2026-09-18 宝宝状态专项复核：逐一打开 NHS 4～40 周发育栏目，结合 Mayo Clinic 三个孕期发育页面、NHS 胎动及 NICHD 足月定义，完善 1～40 周宝宝状态。补充长度测量范围转换、发育与功能成熟的区别，保留早期超声判断边界；逐周页保留其余旧内容的复核日期，单独标注本次专项复核。未进行全库医疗、政策或外链复核。
+
 - 2026-09-15 政策展示范围调整：面向 2026 年 6 月之后出生的孩子及其家庭，移除仅适用于此前出生孩子的政策说明和专用来源，保留适用于目标家庭的现行规则。历史内容按 Git 记录追溯。
 
 - 2026-09-15 医保专项复核：阅读公立医院公开的浙医保发〔2026〕6 号原文，补充 3 月 20 日起生育服务包支付范围变化；保留完整目录、支付标准和当次结算核对要求。
@@ -385,7 +423,7 @@
 
 - 2026-09-04 新增 WHO 食品安全五要点，支持燕窝蒸制教程的一般卫生原则；家庭提供的容量、水位、时间和外观描述单独标注为经验记录。
 
-- 最近新增来源复核日期：2026-09-15
+- 最近新增来源复核日期：2026-09-18
 - 2026-07-05 全库复核：孕期医学内容及杭州社区、政务、医保、生育保险、劳动权益和浙大妇院公开流程。
 - 2026-07-08 新增来源复核：孕吐应对相关的 NHS、RCOG 和 Mayo Clinic 资料。
 - 2026-07-09 新增来源复核：孕期健康饮食、食品安全、补充剂和鱼类选择相关的 NHS 与 FDA 资料。
