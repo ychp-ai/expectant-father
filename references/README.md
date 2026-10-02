@@ -453,6 +453,36 @@
 - 适用范围：奶瓶每次使用后清洗、专用清洗容器和刷具、充分干燥后收纳；不足 2 月龄、早产或免疫功能较弱婴儿奶具的每日消毒，以及适用洗碗机程序的消毒例外。用于确定奶具卫生所需条件，不引用该页残奶时间表述，不替代具体喂养指导。
 - 最近复核：2026-09-22
 
+### AAP-CARSEAT-001：婴儿乘车安全座椅
+
+- 美国儿科学会 HealthyChildren：[《Car Seats: Information for Families》](https://www.healthychildren.org/English/safety-prevention/on-the-go/Pages/Car-Safety-Seats-Information-for-Families.aspx)，页面更新于 2026 年 4 月 16 日。
+- 适用范围：后向式座椅、后排安装、身高体重与车辆相容、约束带和衣物、制造商允许的配件及早产儿乘车评估原则；不移用海外认证或交通法规。
+- 最近复核：2026-10-02
+
+### AAP-CARTRAVEL-001：婴儿乘车途中照护
+
+- 美国儿科学会 HealthyChildren：[《Is it safe for my baby to travel in a car seat for a few hours at a time?》](https://www.healthychildren.org/English/tips-tools/ask-the-pediatrician/Pages/Is-it-safe-for-my-baby-to-travel-in-a-car-seat-a-few-hours-at-a-time.aspx)，页面更新于 2023 年 11 月 22 日。
+- 适用范围：后排成人观察宝宝、头部姿势、停车后喂养、休息安排、车内温度及到达后转移到平坦睡眠空间；不把固定车程时长外推为所有新生儿均适用。
+- 最近复核：2026-10-02
+
+### NHS-CAESAREAN-001：剖宫产后乘车与搬运
+
+- 英国 NHS：[《Caesarean section — Recovery》](https://www.nhs.uk/tests-and-treatments/caesarean-section/recovery/)，页面标注最近医学审阅为 2023 年 1 月 4 日。
+- 适用范围：剖宫产后接送由他人驾驶、避免搬运重物、恢复驾驶需结合实际恢复及医生意见；不采用海外住院天数、固定驾驶恢复日数或用药方案。本次日期是访问复核日期，不表示原页面已在 2026 年修订。
+- 最近复核：2026-10-02
+
+### CDC-MATERNALWARNING-001：孕产妇紧急警示征象
+
+- 美国 CDC：[《Urgent Maternal Warning Signs and Symptoms》](https://www.cdc.gov/hearher/maternal-warning-signs/index.html)，页面日期为 2024 年 5 月 15 日。
+- 适用范围：大量出血、胸痛、呼吸困难、晕厥、严重头痛及视物异常等需及时求助的提示；用于接送前及途中求助，不构成完整诊断清单。
+- 最近复核：2026-10-02
+
+### NHS-BABYWARNING-001：婴儿紧急求助征象
+
+- 英国 NHS：[《When to get urgent medical help for babies and children under 5》](https://www.nhs.uk/baby/health/when-to-get-urgent-medical-help-for-babies-and-children-under-5/)，页面标注最近审阅为 2026 年 8 月 6 日。
+- 适用范围：呼吸困难、嘴唇或舌头发青、难以唤醒等需立即求助的征象；不移用英国急救号码或自行解释病因。
+- 最近复核：2026-10-02
+
 ## 已停用来源
 
 仅保留不再复用的编号：`HZ-BIRTH-001`、`ZJ-SUPPORT-001`、`HZ-SUBSIDY-001`、`CN-CHILDCARE-002`。已移除过期或超出目标家庭范围的政策说明，历史内容见 Git 记录。
@@ -476,6 +506,8 @@
 复核后应更新受影响正文的来源编号和最近复核日期，并在本页“复核记录”概括变更；仅确认内容未变时，也应记录检查范围，避免把旧日期误当作永久有效。
 
 ## 复核记录
+
+- 2026-10-02 母婴接送专项复核：打开 AAP 座椅与出行、NHS 剖宫产恢复与婴儿紧急征象、CDC 孕产妇紧急征象页面，新增医院出院及离开月子中心的接送清单；区分乘车安全、医疗交接和家庭接手建议。睡眠与奶具卫生沿用既有来源，不移用海外法规、急救号码、固定出院日数或用药方案；具体机构接车及入住退房安排需当次确认。未进行全库医学、政策或外链复核。
 
 - 2026-10-02 政策专项复核：检索国家、浙江和杭州官方生育支持政策更新，核对杭医保〔2026〕24 号正文及附件 15，补齐 6 月 25 日起生育服务包三个项目的新旧名称对应关系。重新打开杭州生育补助正式方案、公积金贷款和租赁优惠、单位产假社保补贴续行文件，未发现已记载金额、上浮比例或有效期变化；为杭州生育补助补充正式原文链接。检索到的 2022～2024 年出生婴幼儿育儿补贴申请延期不适用于目标家庭，不纳入正文；国家医保生育支持工作进展不直接当作新的杭州个人待遇。未逐条重新复核全部政策、医学和医院流程，未复核来源保留原日期。
 
