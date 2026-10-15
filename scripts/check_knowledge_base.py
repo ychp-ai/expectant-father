@@ -20,10 +20,7 @@ SOURCE_CODE_RE = re.compile(
 )
 LINK_RE = re.compile(r"(?<!!)\[[^\]]+\]\(([^)]+)\)")
 REVIEW_RE = re.compile(r"^- 最近复核：(\d{4}-\d{2}-\d{2})$", re.MULTILINE)
-DYNAMIC_RE = re.compile(
-    r"政策|政务|医保|生育保险|津贴|补贴|劳动|产假|护理假|育儿假|"
-    r"生育登记|建小卡|社区|医院|院区|预约|入院|户籍|出生医学证明|联办"
-)
+PERIOD_RE = re.compile(r"^- 复核周期：(.*)$", re.MULTILINE)
 
 
 def markdown_files() -> list[Path]:
@@ -60,6 +57,17 @@ def source_sections(reference_text: str) -> tuple[dict[str, str], set[str]]:
     return active, stopped
 
 
+def source_periods(sections: dict[str, str], errors: list[str]) -> dict[str, int]:
+    periods: dict[str, int] = {}
+    for code, section in sections.items():
+        matches = PERIOD_RE.findall(section)
+        if len(matches) != 1 or matches[0] not in {"90 天", "365 天"}:
+            errors.append(f"来源编号 {code}: 复核周期须唯一且为 90 天或 365 天")
+        else:
+            periods[code] = int(matches[0].split()[0])
+    return periods
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--today", help="以 YYYY-MM-DD 覆盖当前日期，便于复核到期测试")
@@ -69,6 +77,9 @@ def main() -> int:
     if today is None:
         return 2
 
+    reference_text = REFERENCES.read_text(encoding="utf-8")
+    active_sources, stopped_sources = source_sections(reference_text)
+    periods = source_periods(active_sources, errors)
     files = markdown_files()
     file_set = {path.resolve() for path in files}
     incoming = {path.resolve(): 0 for path in files}
@@ -92,7 +103,8 @@ def main() -> int:
             used_sources.update(SOURCE_CODE_RE.findall(checked_text))
 
         if "## 内容依据与复核" in checked_text:
-            if "- 采用来源：" not in checked_text:
+            adopted = re.findall(r"^- 采用来源：(.*)$", checked_text, re.MULTILINE)
+            if not adopted or not any(SOURCE_CODE_RE.search(line) for line in adopted):
                 errors.append(f"{relative}: 缺少采用来源")
             review_matches = REVIEW_RE.findall(checked_text)
             if len(review_matches) != 1:
@@ -100,7 +112,9 @@ def main() -> int:
             else:
                 reviewed = parse_date(review_matches[0], str(relative), errors)
                 if reviewed:
-                    max_age = 90 if DYNAMIC_RE.search(checked_text) else 365
+                    # 混合页面采用所引用来源中最短的周期；通用就医提醒不改变分类。
+                    page_codes = set(SOURCE_CODE_RE.findall(checked_text))
+                    max_age = min((periods[code] for code in page_codes if code in periods), default=365)
                     age = (today - reviewed).days
                     if age < 0:
                         errors.append(f"{relative}: 最近复核日期晚于检查日期")
@@ -120,8 +134,6 @@ def main() -> int:
             elif resolved in incoming:
                 incoming[resolved] += 1
 
-    reference_text = REFERENCES.read_text(encoding="utf-8")
-    active_sources, stopped_sources = source_sections(reference_text)
     undefined = used_sources - set(active_sources)
     for code in sorted(undefined):
         status = "已停用" if code in stopped_sources else "未定义"
@@ -137,8 +149,8 @@ def main() -> int:
             errors.append(f"来源编号 {code}: 最近复核日期数量应为 1")
             continue
         reviewed = parse_date(matches[0], f"来源编号 {code}", errors)
-        if reviewed:
-            max_age = 90 if DYNAMIC_RE.search(section) else 365
+        if reviewed and code in periods:
+            max_age = periods[code]
             age = (today - reviewed).days
             if age < 0:
                 errors.append(f"来源编号 {code}: 最近复核日期晚于检查日期")
